@@ -1,0 +1,13 @@
+[package]
+name = "bevy_construct_prototype"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy_construct_prototype_macros = { path = "macros", version = "0.1" }
+bevy_ecs = "0.15.0-dev"
+bevy_ptr = "0.15.0-dev"
+bevy_reflect = "0.15.0-dev"
+
+variadics_please = "1.0"
+thiserror = "1.0"
